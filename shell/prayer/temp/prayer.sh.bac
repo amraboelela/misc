@@ -1,0 +1,13 @@
+#wget -O $path/temp/prayerUSA.html http://www.islamicfinder.org/cityPrayerNew.php?country=usa&lang=english
+path="/home/amr/develop/shell/prayer";
+cat $path/temp/prayerUSA.html | tr '\n' '$' | tr '\r' ' ' | sed "s/<HTML.*San Francisco//" > $path/temp/pray1.txt
+cat $path/temp/pray1.txt | sed "s/<tr>.*html>//" > $path/temp/pray2.txt
+cat $path/temp/pray2.txt | sed "s/>\\$/>/g" > $path/temp/pray3.txt
+cat $path/temp/pray3.txt | sed "s/<td class=\"IslamicData\" bgcolor=\"#FFFFFF\" align=\"center\">/ | at /g" > $path/temp/pray4.txt
+cat $path/temp/pray4.txt | sed "s/<\/td>//g" > $path/temp/pray5.txt
+cat $path/temp/pray5.txt | sed "s/<\/a>//g" > $path/temp/pray6.txt
+cat $path/temp/pray6.txt | sed "s/<\/tr>//g" > $path/temp/pray7.txt
+cat $path/temp/pray7.txt | tr '$' '\n' > $path/temp/pray8.txt
+paste $path/res/commands.txt $path/temp/pray8.txt $path/res/ampm.txt > $path/pray.sh
+chmod 777 $path/pray.sh
+$path/pray.sh

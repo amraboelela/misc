@@ -1,0 +1,11 @@
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-8.zip {}-9.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-7.zip {}-8.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-6.zip {}-7.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-5.zip {}-6.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-4.zip {}-5.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-3.zip {}-4.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-2.zip {}-3.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-1.zip {}-2.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}-0.zip {}-1.zip
+ls *[^0-9].zip | sed "s/.zip//" | xargs -I {} cp {}.zip {}-0.zip
+rm *[^0-9].zip

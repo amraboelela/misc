@@ -1,4 +1,0 @@
-assignment
-==========
-
-Macys Assigment

@@ -1,0 +1,62 @@
+ [
+  {
+  "ID": "100",
+  "name": "iMac",
+  "description": "iMac computer",
+  "regularPrice": 1000,
+  "salePrice": 900,
+  "photoName": "imac.png",
+  "colors": [
+             "Gray",
+             "Blue",
+             "White"
+             ],
+  "stores": {
+  "names": [
+            "Macys",
+            "Apple Store",
+            "Frys"
+            ]
+  }
+  },
+  {
+  "ID": "101",
+  "name": "MacBook Pro",
+  "description": "MacBook Pro 2013",
+  "regularPrice": 2000,
+  "salePrice": 1800,
+  "photoName": "macbook.png",
+  "colors": [
+             "White",
+             "Green",
+             "Blue"
+             ],
+  "stores": {
+  "names": [
+            "Macys",
+            "BestBuy",
+            "Frys"
+            ]
+  }
+  },
+  {
+  "ID": "102",
+  "name": "iPhone 5s",
+  "description": "iPhone 5s 64bit",
+  "regularPrice": 800,
+  "salePrice": 700,
+  "photoName": "iphone5s.png",
+  "colors": [
+             "Gray",
+             "Gold",
+             "White"
+             ],
+  "stores": {
+  "names": [
+            "Macys",
+            "Walmart",
+            "BestBuy"
+            ]
+  }
+  }
+]

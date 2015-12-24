@@ -1,6 +1,6 @@
-echo "mplayer -vo null ~/install/sounds/FajrMakkah.flv " | at 
-echo "mplayer -vo null ~/install/sounds/AzkarSabah.flv " | at 
-echo "mplayer -vo null ~/install/sounds/BeautifulAzan.mp4 " | at 
-echo "mplayer -vo null ~/install/sounds/MakkahAzan.flv " | at 
-echo "mplayer -vo null ~/install/sounds/BeautifulAzan.mp4 " | at 
-echo "mplayer -vo null ~/install/sounds/MakkahAzan.flv " | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/FajrMakkah.flv " | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/AzkarSabah.flv " | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/BeautifulAzan.mp4 " | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/MakkahAzan.flv " | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/BeautifulAzan.mp4 " | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/MakkahAzan.flv " | at 

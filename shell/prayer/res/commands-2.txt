@@ -1,6 +1,6 @@
-echo "mplayer -vo null ~/install/sounds/protection.flv" | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/protection.flv" | at 
 echo "" | at 
 echo "" | at 
 echo "" | at 
-echo "mplayer -vo null ~/install/sounds/night-recitation.flv" | at 
-echo "mplayer -vo null ~/install/sounds/protection.flv" | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/night-recitation.flv" | at 
+echo "mplayer -vo null ~/Dropbox/install/sounds/protection.flv" | at 

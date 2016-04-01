@@ -1,6 +1,6 @@
 MONTH=$(date "+%m")
 DAY=$(date "+%d")
-path="/home/amr/misc/shell/prayer";
+path="/home/bilal/misc/shell/prayer";
 cat $path/res/prayer-${MONTH}.txt | sed -n "${DAY}p" | sed "s/\t/\n/g" > $path/temp/pray.txt
 ZERO_ONE=$(expr $DAY % 2)
 echo $ZERO_ONE
